@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="40%" stop-color="#D4A843"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0088AA"/>
+    </linearGradient>
+    <linearGradient id="connGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#D4A843"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B0F"/>
+      <stop offset="100%" stop-color="#0D1218"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nodeGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.03" stroke="#94A3B8" stroke-width="0.5">
+    <line x1="0" y1="75" x2="1200" y2="75"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="225" x2="1200" y2="225"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+  </g>
+
+  <!-- Border accent -->
+  <rect x="1" y="1" width="1198" height="298" rx="15" fill="none" stroke="#D4A843" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Background network nodes (decorative) -->
+  <g opacity="0.06">
+    <circle cx="100" cy="60" r="3" fill="#00D4FF"/>
+    <circle cx="180" cy="240" r="2" fill="#D4A843"/>
+    <circle cx="1050" cy="80" r="3" fill="#D4A843"/>
+    <circle cx="1100" cy="220" r="2" fill="#00D4FF"/>
+    <line x1="100" y1="60" x2="180" y2="240" stroke="#00D4FF" stroke-width="0.5"/>
+    <line x1="1050" y1="80" x2="1100" y2="220" stroke="#D4A843" stroke-width="0.5"/>
+  </g>
+
+  <!-- Duo-node icon -->
+  <g transform="translate(280, 70)" filter="url(#nodeGlow)">
+    <!-- Connection line -->
+    <line x1="28" y1="45" x2="100" y2="45" stroke="url(#connGrad)" stroke-width="3" stroke-dasharray="5,4" opacity="0.7"/>
+    <!-- Node 1 (cyan) -->
+    <circle cx="22" cy="45" r="18" fill="none" stroke="url(#cyanGrad)" stroke-width="2.5"/>
+    <circle cx="22" cy="45" r="7" fill="#00D4FF" opacity="0.85"/>
+    <!-- Node 2 (gold) -->
+    <circle cx="106" cy="45" r="18" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+    <circle cx="106" cy="45" r="7" fill="#D4A843" opacity="0.85"/>
+    <!-- Signal arcs -->
+    <path d="M 42 30 Q 64 10 86 30" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.25"/>
+    <path d="M 42 60 Q 64 80 86 60" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.25"/>
+  </g>
+
+  <!-- DUONODE wordmark -->
+  <g transform="translate(420, 72)">
+    <text x="0" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="900" fill="url(#goldGrad)" letter-spacing="5" filter="url(#glow)">DUO</text>
+    <text x="200" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="300" fill="#94A3B8" letter-spacing="5">NODE</text>
+  </g>
+
+  <!-- Inc. -->
+  <text x="832" y="120" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="16" font-weight="400" fill="#64748B" letter-spacing="2">INC.</text>
+
+  <!-- Tagline -->
+  <text x="600" y="205" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="14" fill="#94A3B8" letter-spacing="8" text-anchor="middle" opacity="0.5">FEDERATED INTELLIGENCE INFRASTRUCTURE</text>
+
+  <!-- Divider line -->
+  <line x1="380" y1="230" x2="820" y2="230" stroke="url(#connGrad)" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Sub-tagline -->
+  <text x="600" y="260" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="12" fill="#64748B" letter-spacing="3" text-anchor="middle" opacity="0.4">OPEN SOURCE AI RUNTIME  |  SECURITY  |  ORCHESTRATION</text>
+
+  <!-- Corner accents -->
+  <line x1="24" y1="24" x2="64" y2="24" stroke="#D4A843" stroke-width="1" opacity="0.2"/>
+  <line x1="24" y1="24" x2="24" y2="64" stroke="#D4A843" stroke-width="1" opacity="0.2"/>
+  <line x1="1176" y1="276" x2="1136" y2="276" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+  <line x1="1176" y1="276" x2="1176" y2="236" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
+</svg>
