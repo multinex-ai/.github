@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.jpg">
-    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.jpg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
+    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg" width="100%">
   </picture>
 </p>
 
@@ -12,9 +12,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DuoNode-Inc"><img src="https://img.shields.io/badge/org-DuoNode--Inc-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
-  <a href="https://github.com/DuoNode-Inc?tab=repositories&q=&type=public"><img src="https://img.shields.io/badge/public_repos-2-00D4FF?style=flat-square" alt="Public Repos"></a>
-  <a href="https://github.com/DuoNode-Inc/omnipotent-commons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-D4A843?style=flat-square" alt="License"></a>
+  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-DuoNode--Inc-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
+  <a href="https://github.com/multinex-ai?tab=repositories&q=&type=public"><img src="https://img.shields.io/badge/public_repos-2-00D4FF?style=flat-square" alt="Public Repos"></a>
+  <a href="https://github.com/multinex-ai/omnipotent-commons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-D4A843?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/deno-000000?style=flat-square&logo=deno&logoColor=white" alt="Deno">
@@ -36,13 +36,13 @@ We maintain the **OAR** (Omnipotent Agentic Runtime) platform and a growing ecos
 <tr>
 <td width="50%">
 
-### [Aegis](https://github.com/DuoNode-Inc/aegis)
+### [Aegis](https://github.com/multinex-ai/aegis)
 
 AI security firewall proxy — local, fast, no cloud.
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white)
-![License](https://img.shields.io/github/license/DuoNode-Inc/aegis?style=flat-square&color=D4A843)
-![GitHub stars](https://img.shields.io/github/stars/DuoNode-Inc/aegis?style=flat-square&color=00D4FF)
+![License](https://img.shields.io/github/license/multinex-ai/aegis?style=flat-square&color=D4A843)
+![GitHub stars](https://img.shields.io/github/stars/multinex-ai/aegis?style=flat-square&color=00D4FF)
 
 - Rules-based prompt injection detection
 - PII leakage prevention
@@ -52,12 +52,12 @@ AI security firewall proxy — local, fast, no cloud.
 </td>
 <td width="50%">
 
-### [OAR Commons](https://github.com/DuoNode-Inc/omnipotent-commons)
+### [OAR Commons](https://github.com/multinex-ai/omnipotent-commons)
 
 Alliance template for shared plans, task boards, and collaboration.
 
 ![Shell](https://img.shields.io/badge/shell-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
-![GitHub stars](https://img.shields.io/github/stars/DuoNode-Inc/omnipotent-commons?style=flat-square&color=00D4FF)
+![GitHub stars](https://img.shields.io/github/stars/multinex-ai/omnipotent-commons?style=flat-square&color=00D4FF)
 
 - Git-native markdown task boards
 - PM tool sync (Linear, GitHub, Jira)
@@ -114,7 +114,7 @@ Alliance template for shared plans, task boards, and collaboration.
 
 ```bash
 # Install the OAR CLI
-cargo install --git https://github.com/DuoNode-Inc/omnipotent oar
+cargo install --git https://github.com/multinex-ai/omnipotent oar
 
 # Initialize a sector
 oar init
@@ -134,13 +134,13 @@ We welcome contributions across all public repositories. See each project's `CON
 
 - **Issues** — Bug reports and feature requests via GitHub Issues
 - **PRs** — Fork, branch, PR workflow on all public repos
-- **Security** — Report vulnerabilities via [GitHub Security Advisories](https://github.com/DuoNode-Inc/aegis/security)
+- **Security** — Report vulnerabilities via [GitHub Security Advisories](https://github.com/multinex-ai/aegis/security)
 
 ---
 
 <p align="center">
   <sub>
     <strong>DuoNode Inc.</strong> · Federated Intelligence Infrastructure<br>
-    <a href="https://github.com/DuoNode-Inc">GitHub</a>
+    <a href="https://github.com/multinex-ai">GitHub</a>
   </sub>
 </p>
