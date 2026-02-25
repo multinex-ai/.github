@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.svg">
-    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.svg" width="100%">
+    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/DuoNode-Inc/.github/main/assets/banner.jpg" width="100%">
   </picture>
 </p>
 
