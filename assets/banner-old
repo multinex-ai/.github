@@ -58,7 +58,7 @@
     <line x1="1050" y1="80" x2="1100" y2="220" stroke="#D4A843" stroke-width="0.5"/>
   </g>
 
-  <!-- Duo-node icon -->
+  <!-- Multinex icon -->
   <g transform="translate(280, 70)" filter="url(#nodeGlow)">
     <!-- Connection line -->
     <line x1="28" y1="45" x2="100" y2="45" stroke="url(#connGrad)" stroke-width="3" stroke-dasharray="5,4" opacity="0.7"/>
@@ -73,14 +73,14 @@
     <path d="M 42 60 Q 64 80 86 60" fill="none" stroke="#D4A843" stroke-width="1" opacity="0.25"/>
   </g>
 
-  <!-- DUONODE wordmark -->
+  <!-- MULTINEX wordmark -->
   <g transform="translate(420, 72)">
-    <text x="0" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="900" fill="url(#goldGrad)" letter-spacing="5" filter="url(#glow)">DUO</text>
-    <text x="200" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="300" fill="#94A3B8" letter-spacing="5">NODE</text>
+    <text x="0" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="900" fill="url(#goldGrad)" letter-spacing="5" filter="url(#glow)">MULTI</text>
+    <text x="280" y="62" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="64" font-weight="300" fill="#94A3B8" letter-spacing="5">NEX</text>
   </g>
 
-  <!-- Inc. -->
-  <text x="832" y="120" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="16" font-weight="400" fill="#64748B" letter-spacing="2">INC.</text>
+  <!-- AI -->
+  <text x="832" y="120" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="16" font-weight="400" fill="#64748B" letter-spacing="2">AI</text>
 
   <!-- Tagline -->
   <text x="600" y="205" font-family="'Montserrat','Inter','Helvetica Neue',sans-serif" font-size="14" fill="#94A3B8" letter-spacing="8" text-anchor="middle" opacity="0.5">FEDERATED INTELLIGENCE INFRASTRUCTURE</text>

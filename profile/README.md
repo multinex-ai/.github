@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
-    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg" width="100%">
+    <img alt="Multinex AI" src="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg" width="100%">
   </picture>
 </p>
 
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-DuoNode--Inc-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
+  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-Multinex--AI-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
   <a href="https://github.com/multinex-ai?tab=repositories&q=&type=public"><img src="https://img.shields.io/badge/public_repos-2-00D4FF?style=flat-square" alt="Public Repos"></a>
   <a href="https://github.com/multinex-ai/omnipotent-commons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-D4A843?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white" alt="Rust">
@@ -24,7 +24,7 @@
 
 ## About
 
-**DuoNode Inc.** builds federated AI infrastructure — systems where agents operate with persistent memory, multi-model orchestration, and sovereign data ownership. Our stack is designed for teams that need AI tooling they fully control: no cloud lock-in, no black-box APIs, no data leaving your perimeter.
+**Multinex AI** builds federated AI infrastructure — systems where agents operate with persistent memory, multi-model orchestration, and sovereign data ownership. Our stack is designed for teams that need AI tooling they fully control: no cloud lock-in, no black-box APIs, no data leaving your perimeter.
 
 We maintain the **OAR** (Omnipotent Agentic Runtime) platform and a growing ecosystem of open-source security and orchestration tools.
 
@@ -140,7 +140,7 @@ We welcome contributions across all public repositories. See each project's `CON
 
 <p align="center">
   <sub>
-    <strong>DuoNode Inc.</strong> · Federated Intelligence Infrastructure<br>
+    <strong>Multinex AI</strong> · Federated Intelligence Infrastructure<br>
     <a href="https://github.com/multinex-ai">GitHub</a>
   </sub>
 </p>
