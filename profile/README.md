@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg">
-    <img alt="DuoNode Inc." src="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg" width="100%">
+    <img alt="Multinex" src="https://raw.githubusercontent.com/multinex-ai/.github/main/assets/banner.jpg" width="100%">
   </picture>
 </p>
 
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-DuoNode--Inc-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
+  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-Multinex-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
   <a href="https://github.com/multinex-ai?tab=repositories&q=&type=public"><img src="https://img.shields.io/badge/public_repos-2-00D4FF?style=flat-square" alt="Public Repos"></a>
   <a href="https://github.com/multinex-ai/omnipotent-commons/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-D4A843?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white" alt="Rust">
@@ -24,25 +24,23 @@
 
 ## About
 
-**DuoNode Inc.** builds federated AI infrastructure — systems where agents operate with persistent memory, multi-model orchestration, and sovereign data ownership. Our stack is designed for teams that need AI tooling they fully control: no cloud lock-in, no black-box APIs, no data leaving your perimeter.
+**Multinex** builds federated AI infrastructure — systems where agents operate with persistent memory, multi-model orchestration, and sovereign data ownership. Our stack is designed for teams that need AI tooling they fully control: no cloud lock-in, no black-box APIs, no data leaving your perimeter.
 
-We maintain the **OAR** (Omnipotent Agentic Runtime) platform and a growing ecosystem of open-source security and orchestration tools.
+We maintain the **MARS** (Multi-Agent Runtime System) platform and a growing ecosystem of open-source security and orchestration tools.
 
 ---
 
-## Open Source Projects
+## Products & Ecosystem
 
 <table>
 <tr>
 <td width="50%">
 
-### [Aegis](https://github.com/multinex-ai/aegis)
+### [Munx Aieges Shield](https://github.com/multinex-ai/munx-aieges-shield)
 
 AI security firewall proxy — local, fast, no cloud.
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat-square&logo=rust&logoColor=white)
-![License](https://img.shields.io/github/license/multinex-ai/aegis?style=flat-square&color=D4A843)
-![GitHub stars](https://img.shields.io/github/stars/multinex-ai/aegis?style=flat-square&color=00D4FF)
 
 - Rules-based prompt injection detection
 - PII leakage prevention
@@ -52,16 +50,15 @@ AI security firewall proxy — local, fast, no cloud.
 </td>
 <td width="50%">
 
-### [OAR Commons](https://github.com/multinex-ai/omnipotent-commons)
+### [Munx Airlock Visa](https://github.com/multinex-ai/munx-airlock-visa)
 
-Alliance template for shared plans, task boards, and collaboration.
+Federated Sync and Alliance Management protocol.
 
-![Shell](https://img.shields.io/badge/shell-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
-![GitHub stars](https://img.shields.io/github/stars/multinex-ai/omnipotent-commons?style=flat-square&color=00D4FF)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
 
 - Git-native markdown task boards
 - PM tool sync (Linear, GitHub, Jira)
-- Multi-agent config generation
+- Org Isolation & multi-agent config generation
 - Alliance bootstrap workflow
 
 </td>
@@ -72,9 +69,9 @@ Alliance template for shared plans, task boards, and collaboration.
 
 ## Platform Architecture
 
-```
+```text
                         ┌─────────────────────────────────────┐
-                        │        OAR — Agentic Runtime        │
+                        │        MARS — Agentic Runtime       │
                         │   Multi-model  ·  Persistent memory │
                         │   Sovereign    ·  Federated         │
                         └──────────────────┬──────────────────┘
@@ -82,11 +79,11 @@ Alliance template for shared plans, task boards, and collaboration.
               ┌────────────────────────────┼────────────────────────────┐
               │                            │                            │
      ┌────────▼────────┐         ┌─────────▼─────────┐       ┌─────────▼─────────┐
-     │   Aegis          │         │   Airlock          │       │   Mnemosyne       │
-     │   AI Firewall    │         │   Org Isolation    │       │   Memory Tiers    │
-     │   Prompt Guard   │         │   Task Board Sync  │       │   Redis · Qdrant  │
-     │   PII Detection  │         │   Alliance Mgmt    │       │   Graphiti · KG   │
-     └──────────────────┘         └────────────────────┘       └───────────────────┘
+     │ Munx Aieges     │         │ Munx Airlock Visa │       │ Munx MemoryStack  │
+     │ Shield          │         │ Org Isolation     │       │ Memory Tiers      │
+     │ Prompt Guard    │         │ Task Board Sync   │       │ Redis · Qdrant    │
+     │ PII Detection   │         │ Alliance Mgmt     │       │ Graphiti · KG     │
+     └─────────────────┘         └───────────────────┘       └───────────────────┘
 ```
 
 **Key design principles:**
@@ -102,9 +99,9 @@ Alliance template for shared plans, task boards, and collaboration.
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| **CLI** | Rust (Clap 4) | `oar` command-line interface |
+| **CLI** | Rust (Clap 4) | `munx` command-line interface |
 | **Runtime** | TypeScript, Deno | Agent orchestration, sync adapters |
-| **Security** | Rust | Aegis firewall proxy |
+| **Security** | Rust | Aieges Shield firewall proxy |
 | **Memory** | Redis, Qdrant, FalkorDB | Hot/warm/cold knowledge tiers |
 | **Infra** | Docker Compose | Sovereign deployment stack |
 
@@ -113,17 +110,17 @@ Alliance template for shared plans, task boards, and collaboration.
 ## Getting Started
 
 ```bash
-# Install the OAR CLI
-cargo install --git https://github.com/multinex-ai/omnipotent oar
+# Install the MUNX CLI
+cargo install --git https://github.com/multinex-ai/munxclaw munx
 
 # Initialize a sector
-oar init
+munx init
 
 # Boot the sovereign stack
-oar up
+munx up
 
 # Connect to a realm
-oar connect
+munx connect
 ```
 
 ---
@@ -134,13 +131,13 @@ We welcome contributions across all public repositories. See each project's `CON
 
 - **Issues** — Bug reports and feature requests via GitHub Issues
 - **PRs** — Fork, branch, PR workflow on all public repos
-- **Security** — Report vulnerabilities via [GitHub Security Advisories](https://github.com/multinex-ai/aegis/security)
+- **Security** — Report vulnerabilities via GitHub Security Advisories on the respective repositories.
 
 ---
 
 <p align="center">
   <sub>
-    <strong>DuoNode Inc.</strong> · Federated Intelligence Infrastructure<br>
+    <strong>Multinex</strong> · Federated Intelligence Infrastructure<br>
     <a href="https://github.com/multinex-ai">GitHub</a>
   </sub>
 </p>
