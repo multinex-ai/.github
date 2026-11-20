@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-labelledby="t d">
+  <title id="t">Complex work, carried forward</title>
+  <desc id="d">A plan saved today is stored in MemQ, then resumed from the last checkpoint in the next session by another AI tool or a teammate. Illustrative workflow.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF0A6"/><stop offset=".45" stop-color="#FFC857"/><stop offset="1" stop-color="#9B6215"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#9FB0BF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <style>
+    text{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+    .k{font-size:11px;font-weight:700;letter-spacing:1.4px;fill:#FFC857}
+    .b{font-size:15px;fill:#E8EEF2}
+    .s{font-size:13px;fill:#9FB0BF}
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="249" rx="12" fill="#080C12" stroke="#243040"/>
+  <!-- Card 1 -->
+  <rect x="24" y="36" width="240" height="140" rx="8" fill="#0D1117" stroke="#243040"/>
+  <text class="k" x="44" y="66">TODAY</text>
+  <text class="b" x="44" y="96">“Plan saved. Research</text>
+  <text class="b" x="44" y="118">checked. Next: build</text>
+  <text class="b" x="44" y="140">the prototype.”</text>
+  <path d="M268 106H316" stroke="#9FB0BF" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+  <!-- Card 2 -->
+  <rect x="320" y="36" width="240" height="140" rx="8" fill="#0D1117" stroke="#FFC857" stroke-width="1.5"/>
+  <g transform="translate(340 62) scale(.72)"><path d="M9 13L22 6V27L9 35V13Z" fill="url(#g)"/><path d="M9 37L22 29V51L9 59V37Z" fill="url(#g)"/><path d="M63 13L50 6V27L63 35V13Z" fill="url(#g)"/><path d="M63 37L50 29V51L63 59V37Z" fill="url(#g)"/><path d="M24 7L36 19L48 7V25L36 37L24 25V7Z" fill="url(#g)" opacity=".8"/><path d="M24 31L36 43L48 31V50L36 62L24 50V31Z" fill="url(#g)"/></g>
+  <text x="400" y="92" font-size="22" font-weight="700" fill="#F4F6FA" style="font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">MemQ</text>
+  <text class="s" x="400" y="114">Your plan, progress,</text>
+  <text class="s" x="400" y="132">and context</text>
+  <path d="M564 106H612" stroke="#9FB0BF" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+  <!-- Card 3 -->
+  <rect x="616" y="36" width="240" height="140" rx="8" fill="#0D1117" stroke="#243040"/>
+  <text class="k" x="636" y="66">NEXT SESSION</text>
+  <text class="b" x="636" y="96">Resume from the last</text>
+  <text class="b" x="636" y="118">saved checkpoint.</text>
+  <text class="s" x="636" y="146">Another AI tool, or your</text>
+  <text class="s" x="636" y="164">teammate.</text>
+  <text class="s" x="24" y="222">Illustrative workflow with connected, authorized tools.</text>
+</svg>
