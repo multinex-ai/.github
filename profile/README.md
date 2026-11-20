@@ -82,7 +82,7 @@ No credit card required. [Create a workspace](https://billing.multinex.ai/signup
 | [**memq-cursor-claude-starter**](https://github.com/multinex-ai/memq-cursor-claude-starter) | Starter workflow for Cursor and Claude agent memory |
 | [**memq-team-handoff-starter**](https://github.com/multinex-ai/memq-team-handoff-starter) | Team handoff pattern on shared agent memory |
 | [**memq-benchmark**](https://github.com/multinex-ai/memq-benchmark) | Reproducible memory, retrieval, and coordination benchmark |
-| [**aieges-shield**](https://github.com/multinex-ai/aieges-shield) | Public Shield security gateway surface |
+| [**multinex-shield**](https://github.com/multinex-ai/multinex-shield) | Multinex Shield: local AI firewall and prompt guard |
 | [**mnx-agi**](https://github.com/multinex-ai/mnx-agi) | Model-agnostic recursive agent harness paired with MemQ |
 | [**multinex-skills**](https://github.com/multinex-ai/multinex-skills) | Skills for MemQ memory, Shield protection, and workflows |
 | [**agentic-order-triage**](https://github.com/multinex-ai/agentic-order-triage) | Forward-deployed agent reference with isolated tool contracts and evals |
