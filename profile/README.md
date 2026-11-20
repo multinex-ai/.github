@@ -1,181 +1,96 @@
-<p align="center">
-  <strong>AI infrastructure that remembers, aligns, and protects.</strong><br>
-  <sub>MemQ for shared agent memory. Crosswalk for trusted business meaning. Shield for local AI protection.</sub>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://multinex.ai"><img src="https://img.shields.io/badge/site-multinex.ai-D4A843?style=flat-square" alt="Website"></a>
-  <a href="https://multinex.ai/docs/"><img src="https://img.shields.io/badge/docs-product_guides-FFC857?style=flat-square" alt="Docs"></a>
-  <a href="https://billing.multinex.ai/signup"><img src="https://img.shields.io/badge/start-free_trial-10B981?style=flat-square" alt="Start free"></a>
-  <a href="https://status.multinex.ai"><img src="https://img.shields.io/badge/status-operational-0EA5E9?style=flat-square" alt="Status"></a>
-  <a href="https://github.com/multinex-ai"><img src="https://img.shields.io/badge/org-multinex--ai-0D1117?style=flat-square&logo=github&logoColor=white" alt="GitHub Org"></a>
-</p>
+<a href="https://multinex.ai">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/multinex-ai/.github/master/profile/assets/multinex-lockup-dark.svg">
+    <img src="https://raw.githubusercontent.com/multinex-ai/.github/master/profile/assets/multinex-lockup-light.svg" alt="Multinex" width="300">
+  </picture>
+</a>
 
----
+### Help your AI finish what it starts.
 
-## What Multinex Builds
+MemQ keeps saved plans, decisions, and checkpoints across sessions, so agents resume complex work instead of restarting it.<br>
+Shield adds local data controls for the prompts, files, and tool calls you connect.
 
-**Multinex AI** builds the operating layer around AI work that cannot afford to lose context, trust the wrong business definition, or leak sensitive data into unmanaged tools.
 
-The current product surface is intentionally focused:
+[![Try MemQ free](https://img.shields.io/badge/Try_MemQ_free-FFC857?style=for-the-badge)](https://billing.multinex.ai/signup?product=memq&next=%2Fdashboard%3Fproduct%3Dmemq)
+[![Docs](https://img.shields.io/badge/Docs-multinex.ai%2Fdocs-080C12?style=for-the-badge&labelColor=161E2A)](https://multinex.ai/docs/)
+[![Benchmarks](https://img.shields.io/badge/Benchmarks-published-080C12?style=for-the-badge&labelColor=161E2A)](https://multinex.ai/benchmarks/memq/)
+[![Status](https://img.shields.io/badge/Status-status.multinex.ai-080C12?style=for-the-badge&labelColor=161E2A)](https://status.multinex.ai)
 
-- **MemQ** keeps approved context available across agents, tools, sessions, and teams.
-- **Crosswalk** aligns CRM, lakehouse, semantic-layer, and operational definitions before AI acts on them.
-- **Shield** classifies and redacts sensitive prompts, files, browser activity, and memory writes before they leave the device.
-- **Billing Manager** handles workspace signup, API keys, subscriptions, entitlements, and product access.
+</div>
 
----
+<br>
 
-## Product Surface
+<div align="center">
+  <img src="https://raw.githubusercontent.com/multinex-ai/.github/master/profile/assets/memq-checkpoint-flow.svg" alt="A plan saved today is stored in MemQ, then resumed from the last checkpoint in the next session by another AI tool or a teammate. Illustrative workflow." width="880">
+</div>
+
+<br>
+
+## Two products, one workflow
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%" valign="top">
 
 ### [MemQ](https://multinex.ai/memq/)
+**Shared AI memory for work that takes more than one session.**
 
-Shared memory for AI agents.
+- **Resume from checkpoints.** Bring the saved plan and open steps into a fresh session.
+- **Ground the next step.** Recall decisions and sources, then verify what changed.
+- **Carry work across agents.** Continue with another connected tool or an authorized teammate.
 
-MemQ is the hosted MCP-native memory layer for AI tools that need durable recall, team handoff, retrieval, and checkpoint continuity.
+Works with Claude Code, Cursor, Codex, and other MCP-compatible clients.
 
-- Hosted endpoint: `https://mcp.multinex.ai/mcp/v1`
-- Works with MCP-compatible clients and agent workflows
-- Namespaces, quotas, checkpoints, and governed retrieval
-- Public proof: [benchmark harness](https://github.com/multinex-ai/memq-benchmark)
-
-</td>
-<td width="33%">
-
-### Crosswalk
-
-Business context alignment before AI acts.
-
-Crosswalk is the product-preview workflow for mapping business definitions across CRM, lakehouse, semantic models, and AI operations.
-
-- Review source fields, owners, grain, and evidence
-- Mark definitions as approved, blocked, or needing review
-- Preserve approved decisions into MemQ-ready context
-- Designed for revenue, data, and operations teams
+[Explore MemQ](https://multinex.ai/memq/) · [Pricing](https://multinex.ai/memq/pricing/) · [Evidence](https://multinex.ai/benchmarks/memq/)
 
 </td>
-<td width="33%">
+<td width="50%" valign="top">
 
 ### [Shield](https://multinex.ai/shield/)
+**Enterprise AI controls that run on your device.**
 
-Local AI classifier and prompt guard.
+- **Check before sending.** Inspect prompts, files, and MCP calls locally.
+- **Apply your data rules.** Redact or block sensitive content in configured workflows.
+- **Use it with MemQ or alone.** MemQ does not require Shield.
 
-Shield inspects prompts, files, browser activity, and MCP tool calls before sensitive data reaches AI providers or shared memory.
+Pair them when you want to share the insight and guard the sensitive data.
 
-- Local-first inspection and redaction
-- Prompt, file, browser, and memory-write protection paths
-- Audit posture for regulated workflows
-- Public security surface: [aieges-shield](https://github.com/multinex-ai/aieges-shield)
+[Explore Shield](https://multinex.ai/shield/) · [Governance](https://multinex.ai/governance/) · [Enterprise demo](https://multinex.ai/enterprise/)
 
 </td>
 </tr>
 </table>
 
----
+## Start in three steps
 
-## How The Pieces Fit
+| | Step | What you do |
+|---|---|---|
+| **1** | **Connect your AI tool** | Create a free MemQ account and connect an MCP-compatible client to `https://mcp.multinex.ai/mcp/v1`. |
+| **2** | **Save a checkpoint** | Keep the plan, completed steps, evidence, and what remains. |
+| **3** | **Resume with context** | In a new session, ask your agent to recall the checkpoint, check current facts, and continue. |
 
-```text
-          people, teams, IDEs, automations, agents
-                         │
-                         ▼
-       ┌──────────────────────────────────────────┐
-       │ Shield                                   │
-       │ local classification, redaction, audit   │
-       └──────────────────┬───────────────────────┘
-                          │ protected prompts, files, tool calls
-                          ▼
-       ┌──────────────────────────────────────────┐
-       │ Crosswalk                                │
-       │ reviewed business meaning and evidence   │
-       └──────────────────┬───────────────────────┘
-                          │ approved context
-                          ▼
-       ┌──────────────────────────────────────────┐
-       │ MemQ                                     │
-       │ shared memory, retrieval, checkpoints    │
-       └──────────────────┬───────────────────────┘
-                          │
-                          ▼
-       agents resume with the same protected context
+No credit card required. [Create a workspace](https://billing.multinex.ai/signup?product=memq&next=%2Fdashboard%3Fproduct%3Dmemq), then follow the [setup guide](https://multinex.ai/docs/memq/).
 
-       Billing Manager provisions accounts, API keys,
-       subscriptions, product access, and entitlements.
-```
+## Open source
 
-**Operating principles**
+| Repository | What it is |
+|---|---|
+| [**memq-connect**](https://github.com/multinex-ai/memq-connect) | MCP Registry manifest and Claude Code plugin for hosted MemQ |
+| [**memq-mcp-starter**](https://github.com/multinex-ai/memq-mcp-starter) | Minimal MCP starter for MemQ-backed agents |
+| [**memq-cursor-claude-starter**](https://github.com/multinex-ai/memq-cursor-claude-starter) | Starter workflow for Cursor and Claude agent memory |
+| [**memq-team-handoff-starter**](https://github.com/multinex-ai/memq-team-handoff-starter) | Team handoff pattern on shared agent memory |
+| [**memq-benchmark**](https://github.com/multinex-ai/memq-benchmark) | Reproducible memory, retrieval, and coordination benchmark |
+| [**aieges-shield**](https://github.com/multinex-ai/aieges-shield) | Public Shield security gateway surface |
+| [**mnx-agi**](https://github.com/multinex-ai/mnx-agi) | Model-agnostic recursive agent harness paired with MemQ |
+| [**multinex-skills**](https://github.com/multinex-ai/multinex-skills) | Skills for MemQ memory, Shield protection, and workflows |
+| [**agentic-order-triage**](https://github.com/multinex-ai/agentic-order-triage) | Forward-deployed agent reference with isolated tool contracts and evals |
 
-- **Context first** — AI work should resume with the right decisions, not restart from scratch.
-- **Meaning before memory** — Business definitions must be reviewed before they become reusable context.
-- **Protection at the edge** — Sensitive prompts, files, and memory writes should be screened locally before exposure.
-- **Proof over claims** — Benchmarks, docs, and runtime checks matter more than generic AI-platform language.
+## Find us
 
----
+[Website](https://multinex.ai) · [Docs](https://multinex.ai/docs/) · [About](https://multinex.ai/about/) · [Architecture](https://multinex.ai/architecture/) · [Sign in](https://billing.multinex.ai/login) · [Status](https://status.multinex.ai) · [Privacy](https://multinex.ai/privacy/) · [Terms](https://multinex.ai/terms/)
 
-## Developer Entry Points
-
-| Need | Start here |
-|------|------------|
-| Connect an MCP client to MemQ | [MemQ docs](https://multinex.ai/docs/memq/quickstart/) |
-| Install MemQ client/plugin surfaces | [MemQ editor setup](https://multinex.ai/docs/memq/editors/) |
-| Review Crosswalk product fit | Product preview; start through [Billing Manager](https://billing.multinex.ai/signup) |
-| Review Shield product fit | [Shield product page](https://multinex.ai/shield/) |
-| Compare memory behavior | [MemQ benchmark repository](https://github.com/multinex-ai/memq-benchmark) |
-| Try a starter project | [memq-mcp-starter](https://github.com/multinex-ai/memq-mcp-starter) |
-| Manage account/API keys | [Billing Manager](https://billing.multinex.ai) |
-
----
-
-## Public Repositories
-
-| Repository | Purpose |
-|------------|---------|
-| [memq-connect](https://github.com/multinex-ai/memq-connect) | MCP registry manifest and client setup assets for MemQ |
-| [memq-mcp](https://github.com/multinex-ai/memq-mcp) | Public MCP-facing MemQ package surface |
-| [memq-benchmark](https://github.com/multinex-ai/memq-benchmark) | Reproducible memory and retrieval benchmark proof |
-| [memq-mcp-starter](https://github.com/multinex-ai/memq-mcp-starter) | Minimal MCP starter for MemQ-backed agents |
-| [memq-cursor-claude-starter](https://github.com/multinex-ai/memq-cursor-claude-starter) | Starter workflow for Cursor and Claude-style agent memory |
-| [memq-team-handoff-starter](https://github.com/multinex-ai/memq-team-handoff-starter) | Team handoff pattern using shared agent memory |
-| [memq-n8n-agent-starter](https://github.com/multinex-ai/memq-n8n-agent-starter) | n8n automation starter with MemQ continuity |
-| [aieges-shield](https://github.com/multinex-ai/aieges-shield) | Public Shield security gateway and AI firewall surface |
-| [multinex-skills](https://github.com/multinex-ai/multinex-skills) | Skills for MemQ memory, Shield protection, and workflow guidance |
-
----
-
-## Getting Started
-
-1. Create a workspace at [billing.multinex.ai/signup](https://billing.multinex.ai/signup).
-2. Generate a MemQ API key in Billing Manager.
-3. Connect your MCP client to `https://mcp.multinex.ai/mcp/v1`.
-4. Use Crosswalk when AI depends on business definitions that need review.
-5. Add [Shield](https://multinex.ai/shield/) when prompts, files, tool calls, or memory writes may contain sensitive data.
-
----
-
-## Links
-
-| Surface | URL |
-|---------|-----|
-| Main site | [multinex.ai](https://multinex.ai) |
-| Docs | [multinex.ai/docs](https://multinex.ai/docs/) |
-| MemQ | [multinex.ai/memq](https://multinex.ai/memq/) |
-| Crosswalk | Product preview |
-| Shield | [multinex.ai/shield](https://multinex.ai/shield/) |
-| Billing Manager | [billing.multinex.ai](https://billing.multinex.ai) |
-| Status | [status.multinex.ai](https://status.multinex.ai) |
-
----
-
-<p align="center">
-  <sub>
-    <strong>Multinex AI</strong> · AI infrastructure that remembers, aligns, and protects<br>
-    <a href="https://multinex.ai">multinex.ai</a> ·
-    <a href="https://multinex.ai/docs/">Docs</a> ·
-    <a href="https://billing.multinex.ai/signup">Start free</a> ·
-    <a href="https://status.multinex.ai">Status</a>
-  </sub>
-</p>
+<div align="center">
+  <sub><b>Multinex</b> · AI agent memory with local data controls</sub>
+</div>
